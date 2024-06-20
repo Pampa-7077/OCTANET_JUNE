@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Lato, sans-serif;
+}
+
+body{
+   /* background-color: rgb(121, 214, 214);*/
+   background-image: url("https://cdn.pixabay.com/photo/2018/08/18/14/31/september-3614870_1280.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height:80vh;
+    background-position: center;
+    opacity: 80;
+    backdrop-filter: blur(2px);
+}
+
+.container{
+   /*display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;*/   
+    display:block;
+    width:550px;
+    margin:50px auto 0;
+    box-shadow: 0 1rem 3rem rgba(0,0,00.175);
+    padding: 2rem;
+    border-radius: #ededed;
+    background-color: rgb(197, 192, 192);
+}
+
+.input-container{
+    width:100%;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.input-container input{
+    border: none;
+    outline: none;
+    padding: 12px;
+    margin-block: 12px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.input-container input[type="text"]{
+     width: 70%;
+}
+.input-container input[type="button"]{
+    background-color: #763860;
+    color: #fff;
+    font-weight: 700;
+    margin-left: 8px;
+    cursor: pointer;
+    padding: 12px 24px;
+}
+
+.input-container input[type="button"]:hover{
+    background-color: #5c1d3a;
+}
+
+ul{
+    width: 100%;
+    max-width: 450px;
+   /* display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;*/
+}
+
+ul li{
+    list-style-type: none;
+    cursor: pointer;
+    margin-block-end: 12px;
+    border: 0.125px solid #a19f9f;
+    border-radius: 2px;
+    padding: 6px 12px;
+    background-color: #ffffff;
+    transition: background-color 0.5s;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}  
+
+ul li:hover{
+    background-color: #cbcaca;
+}
+
+ul li p{
+    flex-grow: 1;
+    padding: 2px;
+}
+
+.btn{
+    border: none;
+    padding: 8px;
+    outline: none;
+    font-size: 16px;
+    background-color: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.deleteBtn{
+    color: #f50c2b;
+}
+
+.editBtn{
+    color: #440080;
+}
